@@ -157,8 +157,8 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 
-#nav_useredit a {background: url('https://svgshare.com/i/8dv.svg') no-repeat center;background-size: 28px;}
-#nav_logout a {background: url('https://svgshare.com/i/8dw.svg') no-repeat center;background-size: 28px;}
+#nav_useredit a {background: url('edit.svg') no-repeat center;background-size: 28px;}
+#nav_logout a {background: url('logout.svg') no-repeat center;background-size: 28px;}
 
 #nav_useredit a:active,
 #nav_logout a:active {background-size: 26px;}
@@ -276,8 +276,6 @@ body#store li#nav_store {
 
 /* Minor Menu */
 
-/*#userinfo_minor li {background-image: url("https://dl.dropbox.com/s/g8v8unycrj0xpca/minoricos.png?dl=0");}*/
-/*#userinfo_minor li {background-image: url("https://svgshare.com/i/8eM.svg");}*/
 #userinfo_minor li {background-image: url("icons.svg");}
 
 
@@ -309,9 +307,9 @@ body#store li#nav_store {
 #userinfo_major li {opacity: 0.5;}
 #userinfo_major li:hover {opacity: 1;background-size: 0;}
 
-#nav_upload {background: url("https://svgshare.com/i/8db.svg") no-repeat center;background-size: 36px;}
-#nav_invite {background: url("https://svgshare.com/i/8dc.svg") no-repeat center;background-size: 30px;}
-#nav_donate {background: url("https://svgshare.com/i/8en.svg") no-repeat center;background-size: 34px;}
+#nav_upload {background: url("upload.svg") no-repeat center;background-size: 36px;}
+#nav_invite {background: url("invite.svg") no-repeat center;background-size: 30px;}
+#nav_donate {background: url("donate.svg") no-repeat center;background-size: 34px;}
 /*#nav_store {background-position: center -115px;}*/
 
 #userinfo_major li a {
@@ -370,8 +368,6 @@ body#store li#nav_store {
 
 #logo a:hover:after {
 	color: var(--color-highlight);
-/*	background: url("https://dl.dropboxusercontent.com/u/11309171/logocd.png") no-repeat right -52px;*/
-	background: url("https://dl.dropboxusercontent.com/u/11309171/what-logo.svg") no-repeat right -52px;
 }
 
 #header a:active, #header a:focus, #logo a:hover, #logo a:active, logo a:focus {
@@ -1259,7 +1255,7 @@ tr.group_torrent:hover td[colspan="3"], tr.group_torrent:not(.edition):hover td:
 .torrent_table .add_bookmark.float_right a:before, #top10 .torrent .group_info span a.add_bookmark:before {
 	content: '';
 	display: block;
-	background: url(icons.svg) no-repeat;
+	background: url('icons.svg') no-repeat;
 	background-size: 100%;
 	background-position: center -49px;
 	width: 18px;
@@ -1269,7 +1265,7 @@ tr.group_torrent:hover td[colspan="3"], tr.group_torrent:not(.edition):hover td:
 .torrent_table .remove_bookmark a:before {
 	content: '';
 	display: block;
-	background: url(icons.svg) no-repeat;
+	background: url('icons.svg') no-repeat;
 	background-size: 100%;
 	background-position: center -49px;
 	width: 18px;
