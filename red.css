@@ -2,6 +2,7 @@
 RED style
 By: KRi2
 Ver: 1.1
+https://raw.githubusercontent.com/krizantenija/red/master/red.css
 */
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=latin-ext");
@@ -276,8 +277,8 @@ body#store li#nav_store {
 /* Minor Menu */
 
 /*#userinfo_minor li {background-image: url("https://dl.dropbox.com/s/g8v8unycrj0xpca/minoricos.png?dl=0");}*/
-#userinfo_minor li {background-image: url("https://svgshare.com/i/8eM.svg");}
-
+/*#userinfo_minor li {background-image: url("https://svgshare.com/i/8eM.svg");}*/
+#userinfo_minor li {background-image: url("https://raw.githubusercontent.com/krizantenija/red/master/icons.svg");}
 
 
 #nav_inbox {background-position:center 2px;background-size: 46px;}
@@ -940,7 +941,7 @@ blockquote.log_outer, blockquote.log_score, blockquote.log_bad {
 }
 
 .torrent_row,
-.edition.group_torrent {box-shadow: 0 10px 10px 0px rgba(0,0,0,.5);}
+.edition.group_torrent {box-shadow: var(--box-sdw);}
 
 #torrents .votespan{margin-left: 5px;}
  
