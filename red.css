@@ -203,7 +203,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #userinfo_minor {
-	margin: 12px 0;
+	margin: 15px 0;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content: center;
@@ -403,7 +403,7 @@ body#store li#nav_store {
 	font-weight: 300;
 /*	overflow: hidden;*/
 	display: block;
-	line-height: 1.88rem;
+	line-height: 2rem;
 	color: var(--color-bg);
 	font-size: 2rem;
 /*	text-transform: uppercase;*/
