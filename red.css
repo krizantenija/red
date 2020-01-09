@@ -293,9 +293,9 @@ body#store li#nav_store {
 
 #userinfo_minor li:hover {
 	background-color: var(--color-white);
-	font-size: 13px;
+	font-size: 13px;		
 }
-
+	
 #userinfo_minor li a {
 	display: block;
 	text-align: center;
@@ -1259,7 +1259,7 @@ tr.group_torrent:hover td[colspan="3"], tr.group_torrent:not(.edition):hover td:
 .torrent_table .add_bookmark.float_right a:before, #top10 .torrent .group_info span a.add_bookmark:before {
 	content: '';
 	display: block;
-	background: url(https://svgshare.com/i/8eM.svg) no-repeat;
+	background: url(https://raw.githubusercontent.com/krizantenija/red/master/icons.svg) no-repeat;
 	background-size: 100%;
 	background-position: center -49px;
 	width: 18px;
@@ -1269,7 +1269,7 @@ tr.group_torrent:hover td[colspan="3"], tr.group_torrent:not(.edition):hover td:
 .torrent_table .remove_bookmark a:before {
 	content: '';
 	display: block;
-	background: url(https://svgshare.com/i/8eM.svg) no-repeat;
+	background: url(https://raw.githubusercontent.com/krizantenija/red/master/icons.svg) no-repeat;
 	background-size: 100%;
 	background-position: center -49px;
 	width: 18px;
