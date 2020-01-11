@@ -228,7 +228,8 @@ ul.thin li { margin:0px 0px; padding:0px; }
   transition: all 0.1s ease-out;
 }
 
-#userinfo_minor li.active {
+#userinfo_minor li.active,
+body#userhistory li#nav_posts {
 /*	background-color: var(--color-box);*/
 	filter:brightness(0.25) sepia(1) hue-rotate(-60deg) saturate(7);
 }
