@@ -1,7 +1,7 @@
 /*
 RED style
 By: KRi2
-Ver: 1.1
+Ver: 2.1
 https://raw.githubusercontent.com/krizantenija/red/master/red.css
 */
 
@@ -121,22 +121,24 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #userinfo #userinfo_username {
-	padding: 0 76px 10px 0;
+	padding: 0 0 10px 0;
 	font-size: 0;
 /*	background: var(--color-white);*/
-/*	display: block;*/
+	display: flex;
 }
 
 #userinfo #nav_userinfo {
 	font-size: 32px;
 	overflow: auto;
 	padding: 0 2px 2px 2px;
+	letter-spacing: 2px;
+	flex:1;
+	order:4;
 }
 
 #nav_useredit,
 #nav_logout {
-	float: left;
-	margin-top:5px !important;
+	margin:5px 5px 0 0 !important;
 }
 
 #nav_useredit a:hover,
@@ -156,6 +158,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
   transition: opacity 0.1s ease-out;
 }
 
+#nav_useredit {order:2;}
 
 #nav_useredit a {background: url('edit.svg') no-repeat center;background-size: 28px;}
 #nav_logout a {background: url('logout.svg') no-repeat center;background-size: 28px;}
@@ -193,7 +196,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #fl_tokens span a {font-weight: 300;}
 
 #userinfo_stats li span {
-	color: var(--color-white);
+/*	color: var(--color-white);*/
 	display: block;
 	font-weight: 300;
 }
@@ -347,11 +350,12 @@ body#store li#nav_store {
 }
 
 #logo {
+	display: none;
 	position: absolute;
 	right: 0;
 }
 
-
+/*
 #logo a:after {
 	display: inline-block;
 	color: var(--color-white);
@@ -359,7 +363,6 @@ body#store li#nav_store {
 	font-size: 32px;
 	font-weight: 500;
 	letter-spacing: 5px;
-/*	margin:0 0 12px 0;*/
 	text-shadow:0 3px 4px rgba(0, 0, 0, 0.2);
 	-webkit-transition:color .2s ease-in-out;
 	-moz-transition:color .2s ease-in-out;
@@ -370,7 +373,7 @@ body#store li#nav_store {
 #logo a:hover:after {
 	color: var(--color-highlight);
 }
-
+*/
 #header a:active, #header a:focus, #logo a:hover, #logo a:active, logo a:focus {
 	border: none;
 	outline: none;
@@ -389,6 +392,7 @@ body#store li#nav_store {
 	margin: 0;
 	padding: 0;
 	background-color: var(--color-box);
+	letter-spacing: 2px;
 }
 
 #menu ul li:last-child {
@@ -1898,6 +1902,7 @@ body#index #content {margin-bottom:0;}*/
 	#userinfo_stats li span {display: inline;}
 	#footer {position: relative;margin:0 auto;}
 	#menu ul {display: flex;flex-wrap:wrap;justify-content:space-around;background-color: var(--color-box);}
+	#menu ul li {letter-spacing: 0;}
 	#menu ul li a {padding:0;}
 
 }
