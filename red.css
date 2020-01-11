@@ -1325,7 +1325,8 @@ body:not(#artist) .header .linkbox a, .linkbox .center a{padding: 0;}
 .linkbox > strong {color: #fff;}
 .linkbox strong {padding: 0 8px;}
 
-.linkbox .brackets:after {
+.linkbox .brackets:after,
+,#discog_table .brackets:after {
 	color: #888;
 	content: " / ";
 	padding: 0 6px;
