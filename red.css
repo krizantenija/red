@@ -2,7 +2,7 @@
 RED style
 By: KRi2
 Ver: 2.1
-https://raw.githubusercontent.com/krizantenija/red/master/red.css
+https://krizantenija.github.io/red/red.css
 */
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=latin-ext");
@@ -267,6 +267,7 @@ body#store li#nav_store {
 	flex-basis:20%;
 	font-size: 0;
 	background-color: transparent;
+	opacity: .9;
 	-webkit-transition: background-color 0.1s ease-out;
   -moz-transition: background-color 0.1s ease-out;
   -ms-transition: background-color 0.1s ease-out;
@@ -295,7 +296,8 @@ body#store li#nav_store {
 
 #userinfo_minor li:hover {
 	background-color: var(--color-white);
-	font-size: 13px;		
+	font-size: 13px;
+	opacity: 1;	
 }
 	
 #userinfo_minor li a {
@@ -724,7 +726,7 @@ input.hidden {
 	vertical-align: top;
 }
 .sidebar .box {
-	margin: 20px 0 22px;
+	margin: 20px 0 25px;
 	padding-bottom: 3px;
 }
 .sidebar .box:first-child {margin-top: 0;}
