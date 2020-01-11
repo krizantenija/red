@@ -1933,10 +1933,6 @@ body#index #content {margin-bottom:0;}*/
 @media only screen and (max-width: 600px) {
 	td.avatar {display: none;}
 	#header {margin-top:2vh;}
-	.torrent .number_column, .torrent .nobr {display: none;}
-	.torrent {display: flex;}
-	.torrent .big_info {flex:1;}
-	.torrent .big_info + td {display: none;}
 }
 
 @media only screen and (max-width: 380px) {
