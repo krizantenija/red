@@ -1924,6 +1924,7 @@ body#index #content {margin-bottom:0;}*/
 	.thin {display: flex; flex-direction:column;}
 	.header {order:0;}
 	#settings_sections.fixed {position: relative !important; top: auto;}
+	.torrent .nobr {white-space: normal;text-align: center;}
 }
 
 /*@media only screen and (min-width: 981px) and (max-height: 660px) {
@@ -1933,7 +1934,6 @@ body#index #content {margin-bottom:0;}*/
 @media only screen and (max-width: 600px) {
 	td.avatar {display: none;}
 	#header {margin-top:2vh;}
-	.torrent .nobr {white-space: normal;text-align: center;}
 }
 
 @media only screen and (max-width: 380px) {
