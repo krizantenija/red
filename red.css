@@ -295,7 +295,7 @@ body#store li#nav_store {
 #nav_better {background-position:center -360px;background-size: 46px;}
 
 #userinfo_minor li:hover {
-	background-color: var(--color-white);
+	background-color: #fff;
 	font-size: 13px;
 	opacity: 1;	
 }
