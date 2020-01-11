@@ -48,7 +48,7 @@ a:hover, #logo a:hover:after {
 a img {border: 0;}
 a.post_id {font-weight: 300; font-size: 12px;}
 
-strong.important_text, .colhead a:hover, .colhead_dark a:hover, .head a:hover, #userinfo_minor li a:active, #userinfo_major li a:active, .torrent .group_info span:not(.votespan) a:hover,#content #header, #content h3 a:hover,#discog_table .box a:hover, .last_read a:hover:after {color: var(--color-highlight);}
+strong.important_text, .colhead a:hover, .colhead_dark a:hover, .head a:hover, #userinfo_minor li a:active, #userinfo_major li a:active, #content #header, #content h3 a:hover,#discog_table .box a:hover, .last_read a:hover:after {color: var(--color-highlight);}
 	
 #searchforum, #searchthread, tr.unreadpm a:hover, #nav_userinfo.active a.username {color:var(--color-white);}
 
@@ -1190,7 +1190,11 @@ tr.group_torrent:hover td[colspan="3"], tr.group_torrent:not(.edition):hover td:
 	opacity: 0.9;
 }
 
-.torrent .group_info span:not(.votespan) a:hover {opacity: 1;}
+.torrent .group_info span:not(.votespan) a:hover {
+	opacity: 1;
+	background: var(--color-highlight);
+	color: #fff;
+}
 
 .torrent .group_info span:not(.votespan) a[title="Report"] { /* RP buttons */
 	font-size: 0;
@@ -1301,7 +1305,7 @@ body:not(#artist) .header .linkbox a, .linkbox .center a{padding: 0;}
 .linkbox {
 	font-size: 13px;
 	text-align: center;
-	padding: 12px 0 14px;
+	padding: 13px 0 15px;
 	color: #888;
 	line-height: 1.4;
 	-webkit-transition:opacity 0.8s ease-in-out;  
