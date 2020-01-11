@@ -1925,8 +1925,9 @@ body#index #content {margin-bottom:0;}*/
 	td.avatar {display: none;}
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 380px) {
 	.layout.recent tr:not(.colhead) td {display: block;width: auto;}
+	.sidebar,#footer {width: 100%; max-width: 300px;}
 }
 
 /* Retina-specific stuff here */
