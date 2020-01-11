@@ -963,7 +963,7 @@ table.cat_list.ft_cat_list {font-weight: bold;}
 }
 
 .filter_torrents #taglist {font-size: 0; margin: 8px 0 5px 0;border-top:1px dashed var(--color-bg);}
-.filter_torrents #taglist td, table#taglist tr {display: inline;}
+/*.filter_torrents #taglist td, table#taglist tr {display: inline;}*/
 .filter_torrents #taglist td a {padding: 2px 10px;font-size: 13px; line-height: 20px;font-weight:300;}
 .filter_torrents #taglist td a:hover {color: var(--color-highlight);}
 .filter_torrents #taglist td {padding: 0;}
