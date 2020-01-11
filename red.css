@@ -109,10 +109,10 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 .main_column {width: calc(100% - 340px);}
 
-#userinfo {}
+/*#userinfo {}*/
 #userinfo a.username {color: var(--color-white); font-weight: 300;}
 #userinfo a.username:hover {color: var(--color-highlight);}
-#userinfo #nav_userinfo:after {content: ' / ';transition:none;color: var(--color-white);font-weight:200;padding-right:3px;} 
+/*#userinfo #nav_userinfo:after {content: ' / ';transition:none;color: var(--color-white);font-weight:200;padding-right:3px;} */
 
 #userinfo ul li {
 	display: inline-block;
