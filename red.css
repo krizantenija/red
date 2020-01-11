@@ -1925,6 +1925,10 @@ body#index #content {margin-bottom:0;}*/
 	td.avatar {display: none;}
 }
 
+@media only screen and (max-width: 400px) {
+	.layout.recent tr:not(.colhead) td {display: block;width: auto;}
+}
+
 /* Retina-specific stuff here */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
