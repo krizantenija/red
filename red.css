@@ -1332,7 +1332,8 @@ body:not(#artist) .header .linkbox a, .linkbox .center a{padding: 0;}
 	padding: 0 6px;
 }
 
-.linkbox .brackets:last-child:after {content:"";padding: 0;}
+.linkbox .brackets:last-child:after,
+#discog_table .brackets:last-child:after {content:"";padding: 0;}
 
 .selected a {color:#fff; text-decoration: none;}
 
