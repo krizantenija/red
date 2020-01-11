@@ -1356,7 +1356,7 @@ body:not(#artist) .header .linkbox a, .linkbox .center a{padding: 0;}
 #torrents .sidebar .box.box_image {box-shadow: none;background: transparent;position: relative;}
 .sidebar .box.box_image {padding-bottom: 0;}
 .sidebar .box.box_image .head {z-index: 3;position: relative;}
-.sidebar .box_image img {max-width: 300px !important; width:300px; max-height: inherit !important;}
+.sidebar .box_image img {max-width: 300px !important; width:100%; max-height: inherit !important;}
 .box_image img[onclick*="lightbox"] {cursor: pointer;}
 .sidebar .box_image div[style*="padding"] {padding: 0 !important;}
 .sidebar .box.box_image_profilealbum {background: var(--color-box);}
