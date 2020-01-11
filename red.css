@@ -1934,6 +1934,7 @@ body#index #content {margin-bottom:0;}*/
 @media only screen and (max-width: 600px) {
 	td.avatar {display: none;}
 	#header {margin-top:2vh;}
+	.torrent_table .group_image {display: none;}
 }
 
 @media only screen and (max-width: 380px) {
