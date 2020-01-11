@@ -14,6 +14,7 @@ https://raw.githubusercontent.com/krizantenija/red/master/red.css
 	--color-dark: #403330; /* dark*/
 	--color-highlight: #c13133; /* highlight - was:#cc2b00 */
 	--box-sdw: 0 5px 15px rgba(0,0,0,.2);
+	--txt-sdw: 0 3px 4px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -47,7 +48,7 @@ a img {border: 0;}
 a.post_id {font-weight: 300; font-size: 12px;}
 
 strong.important_text, .colhead a:hover, .colhead_dark a:hover, .head a:hover, #userinfo_minor li a:active, #userinfo_major li a:active, .torrent .group_info span:not(.votespan) a:hover,#content #header, #content h3 a:hover,#discog_table .box a:hover, .last_read a:hover:after {color: var(--color-highlight);}
-
+	
 #searchforum, #searchthread, tr.unreadpm a:hover, #nav_userinfo.active a.username {color:var(--color-white);}
 
 a[onclick]:focus {
@@ -110,7 +111,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 .main_column {width: calc(100% - 340px);}
 
 /*#userinfo {}*/
-#userinfo a.username {color: var(--color-white); font-weight: 300;}
+#userinfo a.username {color: var(--color-white); font-weight:300; text-shadow:var(--txt-sdw);}
 #userinfo a.username:hover {color: var(--color-highlight);}
 /*#userinfo #nav_userinfo:after {content: ' / ';transition:none;color: var(--color-white);font-weight:200;padding-right:3px;} */
 
@@ -363,7 +364,7 @@ body#store li#nav_store {
 	font-size: 32px;
 	font-weight: 500;
 	letter-spacing: 5px;
-	text-shadow:0 3px 4px rgba(0, 0, 0, 0.2);
+	text-shadow:var(--txt-sdw);
 	-webkit-transition:color .2s ease-in-out;
 	-moz-transition:color .2s ease-in-out;
 	-o-transition:color .2s ease-in-out;
@@ -606,7 +607,7 @@ body#forums #content h2,
 	font-size: 30px;
 	letter-spacing: 4px;
 	margin-bottom: 12px;
-	text-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+	text-shadow: var(--txt-sdw);
 }
 
 body#bookmarks #content div:not(.box) h2 a[href^="feeds"]{ float: right;}
@@ -1664,7 +1665,7 @@ body#upload #content > div:first-child:before { /* Add costum titles */
 	font-weight: 300;
 	letter-spacing: 4px;
 	margin-bottom: 12px;
-	text-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+	text-shadow: var(--txt-sdw);
 }
 
 body#index #content div.thin:before {content:'News';}
