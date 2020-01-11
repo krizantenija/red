@@ -1897,7 +1897,8 @@ body#index #content {margin-bottom:0;}*/
 	#header {position: relative; width: auto;}
 	#logo {text-align: center;}
 	#wrapper {display: block; max-width:1150px;}
-	#userinfo_minor {display: flex;	flex-wrap:nowrap;margin:8px 0;}
+	#userinfo_minor {display: flex;	margin:10px 0;}
+	#userinfo_minor li {flex-basis:auto;min-width: 80px;}
 	#userinfo_stats li span {display: inline;}
 	#footer {position: relative;margin:0 auto;}
 	#menu ul {display: flex;flex-wrap:wrap;justify-content:space-around;background-color: var(--color-box);}
