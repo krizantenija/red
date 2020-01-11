@@ -1747,6 +1747,9 @@ textarea#quickpost, #forums #quickpost {width:100%;}
 .i-am-new .noty_buttons {background: transparent !important; text-align: left !important; padding: 0 10px 5px!important; border-top: none !important;}
 .i-am-new .noty_buttons a:hover {color: #fff;}
 
+.badge {background: var(--color-box);}
+.badge.inactive {background: var(--color-dark);}
+
 /* Friends page --------------------------------------*/
 
 #friends .box.pad {padding: 0; background: transparent;box-shadow: none;}
