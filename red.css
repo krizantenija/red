@@ -1322,7 +1322,7 @@ body:not(#artist) .header .linkbox a, .linkbox .center a{padding: 0;}
 .linkbox > strong {color: #fff;}
 .linkbox strong {padding: 0 8px;}
 
-.linkbox:not(last-child) .brackets:after {
+.linkbox .brackets:after {
 	color: #888;
 	content: " / ";
 	padding: 0 6px;
