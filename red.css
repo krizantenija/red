@@ -888,17 +888,17 @@ body#index strong .size5 {font-weight: 300;}
 .torrent_table .sign a img[title=Snatches],
 .torrent_table .sign img[title=Snatches]
  {
-	background-image: url('https://dl.dropbox.com/s/b8ya5lm4d6khjjh/snatchupdown.png?dl=0');
+	background-image: url('snatchupdown.png');
 	background-position: 1px 1px;
 }
 .torrent_table .sign a img[title=Seeders],
 .torrent_table .sign img[title=Seeders] {
-	background-image: url('https://dl.dropbox.com/s/b8ya5lm4d6khjjh/snatchupdown.png?dl=0');
+	background-image: url('snatchupdown.png');
 	background-position: -33px 1px;
 }
 .torrent_table .sign a img[title=Leechers],
 .torrent_table .sign img[title=Leechers] {
-	background-image: url('https://dl.dropbox.com/s/b8ya5lm4d6khjjh/snatchupdown.png?dl=0');
+	background-image: url('snatchupdown.png');
 	background-position: -63px 2px;
 }
 
@@ -1293,7 +1293,7 @@ body:not(#artist) .header .linkbox a, .linkbox .center a{padding: 0;}
 .linkbox {
 	font-size: 13px;
 	text-align: center;
-	padding: 12px 0;
+	padding: 12px 0 14px;
 	color: #888;
 	line-height: 1.4;
 	-webkit-transition:opacity 0.8s ease-in-out;  
@@ -1315,14 +1315,15 @@ body:not(#artist) .header .linkbox a, .linkbox .center a{padding: 0;}
 }
 
 .linkbox > strong {color: #fff;}
-
 .linkbox strong {padding: 0 8px;}
 
-.linkbox .brackets:after {
+.linkbox:not(last-child) .brackets:after {
 	color: #888;
 	content: " / ";
 	padding: 0 6px;
 }
+
+.linkbox .brackets:last-child:after {content:"";padding: 0;}
 
 .selected a {color:#fff; text-decoration: none;}
 
@@ -1649,7 +1650,8 @@ select:focus {
 }
 
 body#index #content div.thin:before,
-body#blog #content div.thin:before { /* Add costum titles */
+body#blog #content div.thin:before,
+body#upload #content > div:first-child:before { /* Add costum titles */
 	position: relative;
 	display: block;
 	color: var(--color-white);
@@ -1662,6 +1664,7 @@ body#blog #content div.thin:before { /* Add costum titles */
 
 body#index #content div.thin:before {content:'News';}
 body#blog #content div.thin:before{content:'Blog';}
+body#upload #content > div:first-child:before {content:'Upload';}
 
 
 .r00 {color: var(--color-highlight);}
