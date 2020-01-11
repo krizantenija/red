@@ -1727,6 +1727,8 @@ textarea#quickpost, #forums #quickpost {width:100%;}
 .donation_info_title {font-weight: inherit;}
 .donation_info {margin: 0 0 25px;}
 
+#badgesdiv {flex-wrap:wrap;text-align:center;}
+
 .vote_album_up,.vote_album_down {  
 	-webkit-transition: color 0.7s ease-out;
   -moz-transition: color 0.7s ease-out;
