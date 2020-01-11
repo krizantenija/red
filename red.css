@@ -1933,6 +1933,7 @@ body#index #content {margin-bottom:0;}*/
 @media only screen and (max-width: 600px) {
 	td.avatar {display: none;}
 	#header {margin-top:2vh;}
+	.torrent .nobr {white-space: normal;text-align: center;}
 }
 
 @media only screen and (max-width: 380px) {
