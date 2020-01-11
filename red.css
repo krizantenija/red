@@ -3,6 +3,7 @@ RED style
 By: KRi2
 Ver: 2.1
 https://krizantenija.github.io/red/red.css
+
 */
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=latin-ext");
@@ -12,7 +13,7 @@ https://krizantenija.github.io/red/red.css
 	--color-white: #f0eded; /* white*/
 	--color-box: #988c8c; /* middle*/
 	--color-dark: #403330; /* dark*/
-	--color-highlight: #c13133; /* highlight - was:#cc2b00 */
+	--color-highlight: #c13133; /* highlight */
 	--box-sdw: 0 5px 15px rgba(0,0,0,.2);
 	--txt-sdw: 0 3px 4px rgba(0, 0, 0, 0.2);
 }
@@ -296,7 +297,7 @@ body#store li#nav_store {
 
 #userinfo_minor li:hover {
 	background-color: #fff;
-	font-size: 13px;
+	font-size: 12px;
 	opacity: 1;	
 }
 	
@@ -398,7 +399,7 @@ body#store li#nav_store {
 }
 
 #menu ul li:last-child {
-	border-radius: 0 0 0 3px;
+	border-radius: 0 0 2px 2px;
 }
 
 #menu ul li a {
