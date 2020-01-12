@@ -1686,7 +1686,7 @@ body#upload #content > div:first-child:before {content:'Upload';}
 
 .change_log_entry {margin-bottom: 15px;}
 .torrent_label {color: #600;}
-.torrent .torrent_label {color: var(--color-white);}
+.torrent .torrent_label.tooltip {color: var(--color-white);}
 .ratio_table tr[class^="row"] {border-bottom:1px dashed var(--color-bg);}
 .rule_table {margin-bottom: 20px;}
 .rule_table td {width: auto !important;}
