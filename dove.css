@@ -1688,7 +1688,7 @@ body#upload #content > div:first-child:before {content:'Upload';}
 .ratio_table tr[class^="row"] {border-bottom:1px dashed var(--color-bg);}
 .rule_table {margin-bottom: 20px;}
 .rule_table td {width: auto !important;}
-.rule_table .nobr {white-space: wrap;}
+.rule_table .nobr {white-space: normal;}
 
 /* Global overrides --------------------------------------*/
 
