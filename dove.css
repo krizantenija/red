@@ -1686,8 +1686,8 @@ body#upload #content > div:first-child:before {content:'Upload';}
 .torrent_label {color: #500; font-weight: 300; font-style: italic;}
 .ratio_table tr[class^="row"] {border-bottom:1px dashed var(--color-bg);}
 .rule_table {margin-bottom: 20px;}
-
-
+.rule_table td {width: auto !important;}
+.rule_table .nobr {white-space: wrap;}
 
 /* Global overrides --------------------------------------*/
 
