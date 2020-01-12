@@ -763,6 +763,10 @@ tr {
 	background-color: var(--color-box);
 }
 
+table tr:not(:last-child) {
+	border-bottom: 1px dashed var(--color-bg);
+}
+
 td, th {
 	border: none;
 	padding: 5px;
