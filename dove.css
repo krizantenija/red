@@ -413,10 +413,10 @@ body#store li#nav_store {
 	padding-right: 9px;
 	outline: none;
 	border-bottom: 1px dashed var(--color-bg) !important;
-	-webkit-transition:all .6s ease-in-out;
-	-moz-transition:all .6s ease-in-out;
-	-o-transition:all .6s ease-in-out;
-	transition:all .6s ease-in-out;
+	-webkit-transition:color .6s ease-in-out;
+	-moz-transition:color .6s ease-in-out;
+	-o-transition:color .6s ease-in-out;
+	transition:color .6s ease-in-out;
 }
 
 #menu ul li a:hover {
