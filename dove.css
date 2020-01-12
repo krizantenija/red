@@ -1234,7 +1234,7 @@ tr.group_torrent:hover td[colspan="3"], tr.group_torrent:not(.edition):hover td:
 }
 
 .torrent_table td.big_info {position: relative; padding: 0;}
-
+.torrent_table td.big_info + td {text-align: center;}
 
 .torrent_table .add_bookmark.float_right,
 .torrent_table .remove_bookmark.float_right {
