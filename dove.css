@@ -232,7 +232,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #userinfo_minor li.active,
-body#userhistory li#nav_subscriptions:not(.active) + li {
+body#userhistory li#nav_subscriptions:not(.active) + li { /* select only the post menu */
 /*	background-color: var(--color-box);*/
 	filter:brightness(0.25) sepia(1) hue-rotate(-60deg) saturate(7);
 }
@@ -875,6 +875,11 @@ body#index strong .size5 {font-weight: 300;}
 #torrents > div > #content > form {
 	margin-bottom: 10px;
 }
+
+.torrent_table.cats {
+	box-shadow: var(--box-sdw);
+}
+
 .torrent_table a:active img, .torrent_table  a:focus img {
 	background-color: transparent !important;
 }
@@ -943,10 +948,10 @@ blockquote.log_outer, blockquote.log_score, blockquote.log_bad {
 	border-bottom: 1px dashed var(--color-bg);
 }
 
-.torrent_row,
+/*.torrent_row,*/
 .edition.group_torrent {box-shadow: var(--box-sdw);}
 
-#better .torrent_row {box-shadow: none;}
+/*#better .torrent_row {box-shadow: none;}*/
 
 #torrents .votespan{margin-left: 5px;}
  
