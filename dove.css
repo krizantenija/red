@@ -1677,7 +1677,7 @@ body#index #content div.thin:before {content:'News';}
 body#blog #content div.thin:before{content:'Blog';}
 body#upload #content > div:first-child:before {content:'Upload';}
 
-
+.torrent_links_block {float: right;}
 .r00 {color: var(--color-highlight);}
 #upvoted, #downvoted {color: var(--color-highlight); font-size: 18px;}
 
