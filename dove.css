@@ -946,6 +946,8 @@ blockquote.log_outer, blockquote.log_score, blockquote.log_bad {
 .torrent_row,
 .edition.group_torrent {box-shadow: var(--box-sdw);}
 
+#better .torrent_row {box-shadow: none;}
+
 #torrents .votespan{margin-left: 5px;}
  
 #torrents #content .search_form:not([onsubmit*="this"]) {
