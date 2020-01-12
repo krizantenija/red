@@ -788,7 +788,7 @@ tr th:last-of-type, tr td:last-of-type {padding-right: 15px;}*/
 .colhead, .colhead_dark, .head {
 	padding: 8px 15px;
 	background: var(--color-white);
-	border: none;
+	border: none !important;
 	color: var(--color-bg);
 }
 
