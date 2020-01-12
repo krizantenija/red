@@ -1088,7 +1088,7 @@ tr.group td:last-child {
 
 .torrent_table .torrent_info {
 	background: var(--color-bg);
-	color: var(--color-box);
+	color: #bbb;
 	display: table-cell;
 	padding: 1px 2px;
 	letter-spacing: 1px;
@@ -1686,7 +1686,7 @@ body#upload #content > div:first-child:before {content:'Upload';}
 
 .change_log_entry {margin-bottom: 15px;}
 .torrent_label {color: #600;}
-.torrent .torrent_label {color: var(--color-highlight);}
+.torrent .torrent_label {color: var(--color-white);}
 .ratio_table tr[class^="row"] {border-bottom:1px dashed var(--color-bg);}
 .rule_table {margin-bottom: 20px;}
 .rule_table td {width: auto !important;}
