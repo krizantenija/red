@@ -1178,17 +1178,18 @@ tr.group_torrent:hover td[colspan="3"], tr.group_torrent:not(.edition):hover td:
 .torrent .group_info span:not(.votespan) {
 	position: absolute;
 	right: 5px;
-	top: calc(50% - 19px);
+	top: calc(50% - 29px);
 	font-size: 0;
 }
 
 .torrent .group_info span:not(.votespan) a { /* DL and RP buttons */
 	color: var(--color-bg);
 	display: block;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 800;
 	text-align: center;
 	opacity: 0.9;
+	border-radius: 3px;
 }
 
 .torrent .group_info span:not(.votespan) a:hover {
@@ -1634,9 +1635,9 @@ form textarea, form input, input[type="button"], button {
 	border:1px #ccc solid;
 	padding: 6px 7px;
 }
-form input {
+/*form input {
 	padding:6px 7px;
-}
+}*/
 
 form textarea:focus, form input:focus, button:focus,
 form input:hover, input[type="button"]:hover, button:hover  {
