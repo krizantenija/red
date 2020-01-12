@@ -232,7 +232,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #userinfo_minor li.active,
-body#userhistory li#nav_posts {
+body#userhistory li#nav_subscriptions:not(.active) + li {
 /*	background-color: var(--color-box);*/
 	filter:brightness(0.25) sepia(1) hue-rotate(-60deg) saturate(7);
 }
